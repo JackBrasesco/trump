@@ -30,6 +30,7 @@ function makeCloud(words) {
 }
 
 data.objects.forEach(function() {
+  console.log(object.firstname)
 })
 
 function draw(words) {
