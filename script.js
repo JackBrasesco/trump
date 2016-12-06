@@ -29,6 +29,9 @@ function makeCloud(words) {
   layout.start(); 
 }
 
+Objects.forEach(function() {
+  
+})
 function draw(words) {
   d3.select("body").append("svg")
     .attr("width", layout.size()[0])
