@@ -10,7 +10,7 @@ $.ajax({
 
 var fill = d3.scale.category20();
 
-makeCloud(["hi", "there", "friedn"])
+makeCloud(["hi", "there", "friend"])
 
 function makeCloud(words) {
   var layout = d3.layout.cloud()
