@@ -10,6 +10,8 @@ $.ajax({
 
 var fill = d3.scale.category20();
 
+var lol = [] 
+
 makeCloud(["hi", "there", "friend"])
 
 function makeCloud(words) {
